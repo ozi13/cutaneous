@@ -338,40 +338,35 @@ a:hover {
 
 #landing-title {
     background-image: url(images/mit-lights.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     color: #FFFFFF;
 }
 
 #research-title {
     background-image: url(images/mit-lights.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     color: #FFFFFF;
 }
 
 #people-title {
     background-image: url(images/mit-lights.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     color: #FFFFFF;
 }
 
 #publications-title {
     background-image: url(images/mit-lights.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     color: #FFFFFF;
 }
 
 #news-title {
     background-image: url(images/mit-lights.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     color: #FFFFFF;
 }
