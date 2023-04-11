@@ -64,6 +64,10 @@ a:hover {
     color: #8193bf;
 }
 
+.logo {
+    float: right;
+    display: flex;
+}
 /* The subnavigation menu */
 .subnav {
     float: left;
@@ -200,6 +204,7 @@ a:hover {
     height: 275px;
     width: 300px;
     object-fit: cover;
+    max-width: 100%;
 }
 
 .btn {
