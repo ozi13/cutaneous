@@ -200,6 +200,7 @@ a:hover {
     height: 275px;
     width: 300px;
     object-fit: cover;
+    max-width: 100%;
 }
 
 .btn {
