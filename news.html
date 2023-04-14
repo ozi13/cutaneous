@@ -1,127 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
-    <link rel="icon" href="/images/haptics-2.png"/>
-    <link rel="stylesheet" href="main.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Cabin&family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Cutaneous News</title>
+        <link rel="icon" href="/images/haptics.png"/>
+        <!--<link rel="stylesheet" href="main.css">-->
+        <!--<style>
+            @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;700&family=Cabin&family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        </style>-->
+    
+      <!-- theme meta -->
+      <meta name="theme-name" content="agen" />
+      
+      <!-- ** Plugins Needed for the Project ** -->
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+      <!-- slick slider -->
+      <link rel="stylesheet" href="plugins/slick/slick.css">
+      <!-- themefy-icon -->
+      <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+      <!-- venobox css -->
+      <link rel="stylesheet" href="plugins/venobox/venobox.css">
+      <!-- card slider -->
+      <link rel="stylesheet" href="plugins/card-slider/css/style.css">
+    
+      <!-- Main Stylesheet -->
+      <link href="css/style.css" rel="stylesheet">
+    
+    </head>
 <body>
-    <div class="navbar">
-        <a href="index.html" class="logo"><img src="images/haptics-2.png" width="30" height="30" alt="CSL Logo" margin-top="3px"></a>
-        <a href="index.html">HOME</a>
-        <a href="people.html">PEOPLE</a>
-        <a href="research.html">RESEARCH</a>
-        <a href="publications.html">PUBLICATIONS</a>
-        <a style="color: #8193bf;" href="news.html">NEWS</a>
-        <a href="https://accessibility.mit.edu/" class="nav-link nav-link-https--accessibilitymitedu-" target="_blank">ACCESSIBILITY</a>
-    </div>
+    <header class="navigation fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html"><img src="images/hap1_nobkg.png" width="40" height="40" alt="CSL Logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div class="title" id="news-title">
-        <h1>News</h1>
-        <p>Tactile, Haptic, and Thermal Sensing</p>
+    <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="people.html">PEOPLE</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">RESEARCH</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">PUBLICATIONS</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #8193bf;" href="news.html">NEWS</a>
+        </li>
+          <li class="nav-item">
+            <a href="https://accessibility.mit.edu/" class="nav-link nav-link-https--accessibilitymitedu-" target="_blank">ACCESSIBILITY</a>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+<!-- page-title -->
+<section class="page-title bg-cover" data-background="images/banner/mit-lights.jpeg">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="display-2 text-white font-weight-bold font-primary">News</h1>
+      </div>
     </div>
+  </div>
+</section>
+<!-- /page-title -->
+<section class="section">
     <div class="container">
-        <div class="main-info">
-            <h2>News</h2>
-            <p style="font-size: 18px; margin-bottom: -10px;">November 17, 2022</p>
+        <div class="main-info" id="publications">
+            <h4>November 17, 2022</h4>
             <p>
                 Dr. Lynette Jones gave the keynote talk on "Time and Space and the Thermal Senses" at the Tactile Research Group Annual Meeting
             </p>
             <hr style="margin-bottom: 20px;">
-            <p style="font-size: 18px; margin-bottom: -10px;">July 10, 2021</p>
+            <h4>July 10, 2021</h4>
             <p>
                 Dr. Lynette Jones was awarded the Distinguished Service Award by the IEEE Technical Committee on Haptics in
                 recognition of efforts to develop a publishing mechanism between the IEEE Transactions on Haptics, the Haptics Symposium, and the
                 World Haptics Conference
             </p>
             <hr>
-            <p style="font-size: 18px; margin-bottom: -10px;">September 18, 2020</p>
+            <h4>September 18, 2020</h4>
             <p><em>Haptics</em>, by Dr. Lynette Jones has been translated into Korean and published by Gimm-Young pubishers</p>
             <hr style="margin-bottom: 20px;">
-            <p style="font-size: 18px; margin-bottom: -10px;">September 4, 2018</p>
+            <h4>September 4, 2018</h4>
             <p><em>Haptics</em>, by Dr. Lynette Jones has been published by MIT Press</p>
             <hr style="margin-bottom: 20px;">
 
-            <p style="font-size: 18px; margin-bottom: -10px;">December 6, 2017</p>
+            <h4>December 6, 2017</h4>
             <p>Dr. Lynette Jones was elected an IEEE Fellow for her contributions to tactile and thermal displays</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">June 6-9, 2017</p>
+            <h4>June 6-9, 2017</h4>
             <p>"Perceptual Interactions in Thermo-tactile Displays" presented in IEEE World Haptics 2017 in Germany</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">March 22, 2017</p>
+            <h4>March 22, 2017</h4>
             <p>Anshul Singhal, a graduate student in the lab, and his teammate, Pranay Jain, have worked on the development of educational devices for blind students. Their work was featured in the MIT News today</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">March 22, 2017</p>
+            <h4>March 22, 2017</h4>
             <p>IEEE Transactions on Haptics has extended the deadline for submission of papers to its latest special issue on Applications of Smart Materials to Haptics to May 1, 2017</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">January 1, 2017</p>
+            <h4>January 1, 2017</h4>
             <p>"Multidirectional in vivo characterization of skin using Wiener nonlinear stochastic system identification techniques." was published in the Journal of Biomechanical Engineering</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">January 1, 2017</p>
+            <h4>January 1, 2017</h4>
             <p>Dr. Lynette Jones has been appointed to a second three-year term as Editor-in-chief of the IEEE Transactions on Haptics beginning January 1, 2017</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">July 7, 2016</p>
+            <h4>July 7, 2016</h4>
             <p>Congratulations to Anshul Singhal for receiving an Honorable Mention in Best Student Paper in EuroHaptics 2016 in London!</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">April 11, 2016</p>
+            <h4>April 11, 2016</h4>
             <p>Congratulations to Anshul Singhal for receiving Runner-up in Best Student Paper at IEEE Haptics Symposium 2016!</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">April 11, 2016</p>
+            <h4>April 11, 2016</h4>
             <p>"Space-time interactions and the perceived location of cold stimuli," by Anshul Singhal and Dr. Lynette Jones, was published in IEEE Haptics Symposium 2016</p>
             <hr>
 
-            <p style="font-size: 18px; margin-bottom: -10px;">June 22, 2015</p>
+            <h4>June 22, 2015</h4>
             <p>"Dimensionality of thermal icons," by Anshul Singhal and Dr. Lynette Jones, was published in IEEE World Haptics 2015</p>
             <hr>
 
         </div>
     </div>
+  </section>
+ <!-- /Footer-->
 
-    <div class="footer">
-        <hr>
-        <div class="footer-row">
-            <div>
-                <h3 style="font-size: 22px;">Cutaneous Sensory Lab</h3>
-                <p>Dept. of Mechanical Engineering</p>
-                <p>77 Massachusetts Ave.  Room 3-153B</p>
-                <p>Cambridge, MA 02139, USA</p>
-            </div>
-            <div id="footer-cutaneous">
-                <a target=”_blank” href="/index.html">
-                    <img src="images/haptics-logo.png" 
-                        alt="Cutaneous Sensory Lab" height="125px" style="margin-top: 1em;">
-                </a>
-            </div>
+ <footer class="bg-secondary position-relative">
+  <!--<img src="images/haptics.png" class="img-fluid overlay-image" class="bg-white p-4" alt="">-->
+  <div class="section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 col-6">
+          <h4 class="text-white mb-5">Cutaneous Sensory Lab</h4>
+          <p class="text-light d-block mb-3">Dept. of Mechanical Engineering</p>
+          <p class="text-light d-block mb-3">77 Massachusetts Ave.  Bldg 3-153B</p>
+          <p class="text-light d-block mb-3">Cambridge, MA 02139, USA</p>
+      </div>
 
-            <div>
-                <h3>Contact Us</h3>
-                <p>Principal Investigator: Lynette Jones</p>
-                <p>Email: ljones@mit.edu</p>
-                <p>Phone Number: (617)-253-3953</p>
-                <p>Building: 3-153D</p>
-            </div>
+        <div class="col-md-4 col-6">
+          <h4 class="text-white mb-5">Contact Us</h4>
+            <p class="text-light d-block mb-3">Principal Investigator: Lynette Jones</p>
+            <p class="text-light d-block mb-3">Email: ljones@mit.edu</p>
+            <p class="text-light d-block mb-3">Phone Number: (617)-253-3973</p>
         </div>
-        <hr>
-        <div class="footer-logos">
-            <a target=”_blank” href="https://web.mit.edu/"><img src="images/MIT-logo-with-spelling-design1-large-red-gray.svg" alt="Massachusetts Institute of Technology"></a>
-            <a target=”_blank” href="http://meche.mit.edu/"><img src="https://bioinstrumentation.mit.edu/images/MechE_logo.svg" alt="MIT Department of Mechanical Engineering" height="40px"></a>
-            <a target=”_blank” href="https://bioinstrumentation.mit.edu/"><img src="images/bilab-vector.svg" alt= "BioInstrumentation Logo" height="40px"></a>
-            <p>© 2023 Cutaneous Sensory Lab</p>
-        </div>
+
+        <div class="col-md-3 col-6">
+          <div id="footer-cutaneous">
+              <a href="index.html">
+                  <img src="images/hap1_nobkg.png" 
+                      alt="Cutaneous Sensory Lab" height="125px" style="margin-top: 1em;">
+              </a>
+          </div>
+      </div>
+      </div>
     </div>
+  </div>
+
+
+<div class="pb-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-left">
+        <p class="text-light mb-0">Copyright &copy; Cutaneous Sensory Lab</a>
+        </p>
+      </div>
+      <div class="col-md-6"><!--class="footer-logos"-->
+        <ul class="list-inline text-md-right text-center">
+          <li class="list-inline-item"><a class="d-block p-3 text-white" target=”_blank” href="https://web.mit.edu/"><img src="images/MIT-logo-with-spelling-design1-large-red-gray.svg" alt="Massachusetts Institute of Technology"></a></li>
+          <li class="list-inline-item"><a class="d-block p-3 text-white" target=”_blank” href="http://meche.mit.edu/"><img src="https://bioinstrumentation.mit.edu/images/MechE_logo.svg" alt="MIT Department of Mechanical Engineering" height="40px"></a></li>
+          <li class="list-inline-item"><a class="d-block p-3 text-white" target=”_blank” href="https://bioinstrumentation.mit.edu/"><img src="images/bilab-vector.svg" alt= "BioInstrumentation Logo" height="40px"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<!-- /Footer-->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- venobox -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- shuffle -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+<!-- apear js -->
+<script src="plugins/counto/apear.js"></script>
+<!-- counter -->
+<script src="plugins/counto/counTo.js"></script>
+<!-- card slider -->
+<script src="plugins/card-slider/js/card-slider-min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
 </body>
 </html>
